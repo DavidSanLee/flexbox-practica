@@ -1,0 +1,44 @@
+.flex-container
+
+{
+
+    display: flex;
+    /*column y row*/
+    /* column reverse las voltea */
+    /* row reverse las voltea */
+    /*flex-direction: row;*/
+    /*alinea elementos al centro */
+    /*end*/
+    /*star*/
+    /*justify-content: flex-start;*/
+    /*espaciarlos en todo el contenido de la caja*/
+    /*justify-content: space-around;*/
+    /*reduce los padding left right*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+
+    /*align-items: stretch;*/
+    
+    /*para que se desborde*/
+    /*flex-wrap: wrap;*/
+    /*que no se desborde*/
+    /*flex-wrap: nowrap;*/
+
+    flex-wrap: wrap;
+    align-content:flex-start;
+    height: 600px;
+    
+    background-color: dodgerblue;
+
+}
+
+.flex-container > div {
+
+    background-color: floralwhite;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
